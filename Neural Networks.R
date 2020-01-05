@@ -7,7 +7,7 @@ normalize <- function(x) {
 }
 
 # apply normalization to entire data frame
-concrete <- read.csv("C:/Users/rayavars/OneDrive - Bristol-Myers Squibb (O365-D)/TOOLS/Data Science/001 Srinivas/11 NN/concrete.csv")
+concrete <- read.csv("C:/Users/11 NN/concrete.csv")
 concrete_norm <- as.data.frame(lapply(concrete, normalize))
 
 # create training and test data
